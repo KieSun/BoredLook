@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E9F9AA59BFE0E22A07EC286 /* Pods_BoredLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51656D2F88C446209C4AD3D /* Pods_BoredLook.framework */; };
+		708B07861D83FB0900F02B29 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708B07841D83FB0900F02B29 /* NibLoadable.swift */; };
+		708B07871D83FB0900F02B29 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708B07851D83FB0900F02B29 /* Reusable.swift */; };
+		708B07891D83FB2F00F02B29 /* UIImage+BoredLook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708B07881D83FB2F00F02B29 /* UIImage+BoredLook.swift */; };
+		70B924551D8407DC002945AF /* NetWorking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B924541D8407DC002945AF /* NetWorking.swift */; };
+		70B924571D8408F3002945AF /* ErrorTypeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B924561D8408F3002945AF /* ErrorTypeExtensions.swift */; };
+		70B9245A1D840AF3002945AF /* TodeyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B924591D840AF3002945AF /* TodeyCell.swift */; };
+		70B9245C1D840B04002945AF /* TodeyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70B9245B1D840B04002945AF /* TodeyCell.xib */; };
+		70F308A21D83EEEB008CBFA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F308A11D83EEEB008CBFA1 /* AppDelegate.swift */; };
+		70F308A71D83EEEB008CBFA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70F308A51D83EEEB008CBFA1 /* Main.storyboard */; };
+		70F308A91D83EEEB008CBFA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70F308A81D83EEEB008CBFA1 /* Assets.xcassets */; };
+		70F308AC1D83EEEB008CBFA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70F308AA1D83EEEB008CBFA1 /* LaunchScreen.storyboard */; };
+		70F627A41D83F1EB0049A738 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F627A31D83F1EB0049A738 /* MainViewController.swift */; };
+		70F627A81D83F8E70049A738 /* UITableView+BoredLook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F627A61D83F8E70049A738 /* UITableView+BoredLook.swift */; };
+		70F627A91D83F8E70049A738 /* UICollectionView+BoredLook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F627A71D83F8E70049A738 /* UICollectionView+BoredLook.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AFFB7E7F52C8C741F0978D4 /* Pods-BoredLook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoredLook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BoredLook/Pods-BoredLook.debug.xcconfig"; sourceTree = "<group>"; };
+		708B07841D83FB0900F02B29 /* NibLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
+		708B07851D83FB0900F02B29 /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		708B07881D83FB2F00F02B29 /* UIImage+BoredLook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+BoredLook.swift"; sourceTree = "<group>"; };
+		70B924541D8407DC002945AF /* NetWorking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorking.swift; sourceTree = "<group>"; };
+		70B924561D8408F3002945AF /* ErrorTypeExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorTypeExtensions.swift; sourceTree = "<group>"; };
+		70B924591D840AF3002945AF /* TodeyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodeyCell.swift; sourceTree = "<group>"; };
+		70B9245B1D840B04002945AF /* TodeyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TodeyCell.xib; sourceTree = "<group>"; };
+		70F3089E1D83EEEB008CBFA1 /* BoredLook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoredLook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70F308A11D83EEEB008CBFA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		70F308A61D83EEEB008CBFA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70F308A81D83EEEB008CBFA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70F308AB1D83EEEB008CBFA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70F308AD1D83EEEB008CBFA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70F627A31D83F1EB0049A738 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		70F627A61D83F8E70049A738 /* UITableView+BoredLook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+BoredLook.swift"; sourceTree = "<group>"; };
+		70F627A71D83F8E70049A738 /* UICollectionView+BoredLook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+BoredLook.swift"; sourceTree = "<group>"; };
+		BC51DB1BDDA2D82EA1BC2EBB /* Pods-BoredLook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoredLook.release.xcconfig"; path = "Pods/Target Support Files/Pods-BoredLook/Pods-BoredLook.release.xcconfig"; sourceTree = "<group>"; };
+		D51656D2F88C446209C4AD3D /* Pods_BoredLook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoredLook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70F3089B1D83EEEB008CBFA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E9F9AA59BFE0E22A07EC286 /* Pods_BoredLook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E37E966092959839E5A68D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AFFB7E7F52C8C741F0978D4 /* Pods-BoredLook.debug.xcconfig */,
+				BC51DB1BDDA2D82EA1BC2EBB /* Pods-BoredLook.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		708B07831D83FB0900F02B29 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				708B07841D83FB0900F02B29 /* NibLoadable.swift */,
+				708B07851D83FB0900F02B29 /* Reusable.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		70B924581D840ADD002945AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				70B924591D840AF3002945AF /* TodeyCell.swift */,
+				70B9245B1D840B04002945AF /* TodeyCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		70F308951D83EEEB008CBFA1 = {
+			isa = PBXGroup;
+			children = (
+				70F308A01D83EEEB008CBFA1 /* BoredLook */,
+				70F3089F1D83EEEB008CBFA1 /* Products */,
+				1E37E966092959839E5A68D1 /* Pods */,
+				BBD82E8ECCD23CD220974A0C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		70F3089F1D83EEEB008CBFA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70F3089E1D83EEEB008CBFA1 /* BoredLook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70F308A01D83EEEB008CBFA1 /* BoredLook */ = {
+			isa = PBXGroup;
+			children = (
+				70F308A11D83EEEB008CBFA1 /* AppDelegate.swift */,
+				70F627A21D83F1EB0049A738 /* ViewController */,
+				70B924581D840ADD002945AF /* View */,
+				70F627A51D83F8D60049A738 /* Extension */,
+				708B07831D83FB0900F02B29 /* Protocol */,
+				70F627A11D83F1B00049A738 /* Other */,
+				70F308A51D83EEEB008CBFA1 /* Main.storyboard */,
+				70F308A81D83EEEB008CBFA1 /* Assets.xcassets */,
+				70F308AA1D83EEEB008CBFA1 /* LaunchScreen.storyboard */,
+				70F308AD1D83EEEB008CBFA1 /* Info.plist */,
+			);
+			path = BoredLook;
+			sourceTree = "<group>";
+		};
+		70F627A11D83F1B00049A738 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				70B924541D8407DC002945AF /* NetWorking.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		70F627A21D83F1EB0049A738 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				70F627A31D83F1EB0049A738 /* MainViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		70F627A51D83F8D60049A738 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				70B924561D8408F3002945AF /* ErrorTypeExtensions.swift */,
+				70F627A61D83F8E70049A738 /* UITableView+BoredLook.swift */,
+				70F627A71D83F8E70049A738 /* UICollectionView+BoredLook.swift */,
+				708B07881D83FB2F00F02B29 /* UIImage+BoredLook.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		BBD82E8ECCD23CD220974A0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D51656D2F88C446209C4AD3D /* Pods_BoredLook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70F3089D1D83EEEB008CBFA1 /* BoredLook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70F308B01D83EEEB008CBFA1 /* Build configuration list for PBXNativeTarget "BoredLook" */;
+			buildPhases = (
+				48D67772DD6F080B42AE61F1 /* [CP] Check Pods Manifest.lock */,
+				70F3089A1D83EEEB008CBFA1 /* Sources */,
+				70F3089B1D83EEEB008CBFA1 /* Frameworks */,
+				70F3089C1D83EEEB008CBFA1 /* Resources */,
+				B592FC0C0381AAE59B3FCB13 /* [CP] Embed Pods Frameworks */,
+				0D0560DD4DEFC73B0314C46E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoredLook;
+			productName = BoredLook;
+			productReference = 70F3089E1D83EEEB008CBFA1 /* BoredLook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70F308961D83EEEB008CBFA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = yck;
+				TargetAttributes = {
+					70F3089D1D83EEEB008CBFA1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 70F308991D83EEEB008CBFA1 /* Build configuration list for PBXProject "BoredLook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70F308951D83EEEB008CBFA1;
+			productRefGroup = 70F3089F1D83EEEB008CBFA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70F3089D1D83EEEB008CBFA1 /* BoredLook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70F3089C1D83EEEB008CBFA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F308AC1D83EEEB008CBFA1 /* LaunchScreen.storyboard in Resources */,
+				70F308A91D83EEEB008CBFA1 /* Assets.xcassets in Resources */,
+				70F308A71D83EEEB008CBFA1 /* Main.storyboard in Resources */,
+				70B9245C1D840B04002945AF /* TodeyCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D0560DD4DEFC73B0314C46E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BoredLook/Pods-BoredLook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48D67772DD6F080B42AE61F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B592FC0C0381AAE59B3FCB13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BoredLook/Pods-BoredLook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70F3089A1D83EEEB008CBFA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708B07871D83FB0900F02B29 /* Reusable.swift in Sources */,
+				70B9245A1D840AF3002945AF /* TodeyCell.swift in Sources */,
+				70F308A21D83EEEB008CBFA1 /* AppDelegate.swift in Sources */,
+				70F627A41D83F1EB0049A738 /* MainViewController.swift in Sources */,
+				70B924551D8407DC002945AF /* NetWorking.swift in Sources */,
+				70F627A81D83F8E70049A738 /* UITableView+BoredLook.swift in Sources */,
+				70B924571D8408F3002945AF /* ErrorTypeExtensions.swift in Sources */,
+				708B07891D83FB2F00F02B29 /* UIImage+BoredLook.swift in Sources */,
+				708B07861D83FB0900F02B29 /* NibLoadable.swift in Sources */,
+				70F627A91D83F8E70049A738 /* UICollectionView+BoredLook.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		70F308A51D83EEEB008CBFA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70F308A61D83EEEB008CBFA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70F308AA1D83EEEB008CBFA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70F308AB1D83EEEB008CBFA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70F308AE1D83EEEB008CBFA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70F308AF1D83EEEB008CBFA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70F308B11D83EEEB008CBFA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AFFB7E7F52C8C741F0978D4 /* Pods-BoredLook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = BoredLook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ping--test.BoredLook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		70F308B21D83EEEB008CBFA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC51DB1BDDA2D82EA1BC2EBB /* Pods-BoredLook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = BoredLook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ping--test.BoredLook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70F308991D83EEEB008CBFA1 /* Build configuration list for PBXProject "BoredLook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F308AE1D83EEEB008CBFA1 /* Debug */,
+				70F308AF1D83EEEB008CBFA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70F308B01D83EEEB008CBFA1 /* Build configuration list for PBXNativeTarget "BoredLook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F308B11D83EEEB008CBFA1 /* Debug */,
+				70F308B21D83EEEB008CBFA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70F308961D83EEEB008CBFA1 /* Project object */;
+}
